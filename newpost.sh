@@ -37,5 +37,10 @@ args=$@
 pdir=_posts
 ext=md
 initpost
-$EDITOR "$pfile"
+if [ -z $EDITOR ]; # $EDITOR not configured
+then
+    xdg-open $pfile
+else
+    $EDITOR "$pfile"
+fi
 git status -s $pdir
