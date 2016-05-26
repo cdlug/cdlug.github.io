@@ -1,0 +1,18 @@
+# Build settings
+markdown: kramdown
+# Site settings
+title: Chengdu GNU/Linux User Group(CDLUG)
+logo: /images/cdlug-logo.png
+email: cdlug_community@googlegroups.com
+description: > # this means to ignore newlines until "baseurl:"
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.cdlug.sh" # the base hostname & protocol for your site
+twitter_username: cdlug
+github_username:  cdlug
+google_groupname:  cdlug_community
+
+# Build settings
+markdown: kramdown
+paginate: 7
+paginate_path: "/page:num/"
