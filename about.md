@@ -12,8 +12,6 @@ permalink: /about/
 We are group of GNU/Linux users at Chengdu China, there would hold discussing online or off-line meeting mainly talking about the Linux and technology related topics. We have no regular meeting time. For the activities, please subscribe to the mail list or ask member to invite you to the weixin chat room and site announcement.
 
 
-### Google group page
-
 ### Mail list
 
     cdlug_community (AT) googlegroups.com
@@ -23,6 +21,7 @@ to join mail list, send email to, with any subject
 
     cdlug_community+subscribe(AT)googlegroups.com
 
+### Google group page 
 查看历史消息
 archived messages
 
