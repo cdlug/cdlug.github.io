@@ -15,6 +15,7 @@ cdlug.sh
 |文百川         | 80 RMB|2017-11-22|
 |姚有趣         |200 RMB|2017-11-24|
 |Mr. Benzene   |50 RMB|2017-11-24|
+| 曾仰学 |100 RMB|2017-11-25|
 
 ## chengdulinuxusergroup.org 域名捐赠
 chengdulinuxusergroup.org
