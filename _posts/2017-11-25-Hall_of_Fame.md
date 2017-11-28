@@ -17,6 +17,8 @@ cdlug.sh
 |Mr. Benzene   |50 RMB|2017-11-24|
 | 曾仰学 |100 RMB|2017-11-25|
 | Jamie Cheng |100 RMB|2017-11-26|
+| 忘汐 |100 RMB|2017-11-28|
+| 萨瓦底卡👻 |52.32 RMB|2017-11-28|
 
 ## chengdulinuxusergroup.org 域名捐赠
 chengdulinuxusergroup.org
