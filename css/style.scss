@@ -62,7 +62,7 @@
 	.blog-logo a img:hover {
 		opacity: 0.75;
 	}
-	
+
 	.blog-logo a img:active {
 		opacity: 0.85;
 	}
@@ -85,33 +85,33 @@
 			margin-top: 15em;
 			box-shadow: 0px 0px 2em rgba(0,0,0,0.5);
 		}
-		
+
 		.site-header {
 			margin-top: 0;
 		}
 	}
-	
+
 	&.blog-has-logo {
 		.site-header {
 			margin-top: 0;
 		}
 	}
-	
+
 	&.blog-has-cover.blog-has-logo {
 		.blog-logo,
 		.header-logo {
 			margin-top: 0;
 		}
-		
+
 		.site-main {
 			margin-top: 0;
 		}
 	}
-	
+
 	.site-main {
 		background: $background-color;
 	}
-	
+
 	.featured.post {
 		box-sizing: border-box;
 		background: darken($background-color, 5%);
@@ -150,7 +150,7 @@
 
 /* The details of your blog. Defined in ghost/settings/ */
 .blog-title {
-	font-size: 1.75em;
+	font-size: 1.5em;
 	font-weight: normal;
 	letter-spacing: -1px;
 	margin: 1.5% auto 0;
@@ -165,7 +165,7 @@
 		color: $text-color;
 		text-shadow: 0px 0px 6px rgba(75,75,75,0.5);
 	}
-	
+
 	.blog-title a:active {
 		color: $text-color;
 		text-shadow: 0px -2px 12px rgba(75,75,75,0.85);
@@ -181,7 +181,7 @@
 
 .site-content {
 	margin: 0 auto;
-	
+
 	header {
 		text-align: center;
 	}
@@ -197,18 +197,18 @@
 	width: 92.5%;
 	margin: 5% auto 10%;
 	word-break: break-word;
-	
+
 	/* Prevent extra space at the bottom of the page. */
 	&:last-of-type {
 		margin-bottom: 0;
 	}
-	
+
 	/* Prevent extra space at the top of the page. */
 	&:first-of-type {
 		margin-top: 0;
 	}
 
-	
+
 	/* Keep large images within the bounds of the post-width. */
 	img {
 		display: block;
@@ -220,16 +220,16 @@
 /* Full-width featured images. */
 .post {
 	width: 100%;
-	
+
 	.post-excerpt,
 	.post-content {
 		width: 92.5%;
 		margin: 0 auto;
 	}
-	
+
 	.post-footer {
 		width: 92.5%;
-		
+
 		@media only screen and (min-width: 35em) {
 			width: 85%;
 		}
@@ -274,7 +274,7 @@
 	&:hover {
 		 color: $accent-color;
 	}
-	
+
 	&:active {
 		 color: $secondary-accent-color;
 	}
@@ -340,7 +340,7 @@
 
 .post-meta a {
 	color: #9EABB3;
-	
+
 }
 
 .post-footer {
@@ -403,7 +403,7 @@
 		width: 25%;
 		max-width: 125px;
 		margin: 0;
-		
+
 		img {
 			transition: box-shadow 0.35s ease-out;
 			display: block;
@@ -411,29 +411,29 @@
 			margin: 0;
 			border-radius: 50%;
 			box-shadow: 0 0 5px rgba(0,0,0,0);
-			
+
 			&:hover {
 				box-shadow: 0 2px 5px rgba(0,0,0,.5);
 			}
 		}
 	}
-	
+
 	.author-meta {
 		float: left;
 		margin-left: 5%;
 		width: 70%;
 	}
-	
+
 	.author-name {
 		color: $text-color;
 		font-size: 1.6em;
 		font-weight: normal;
 	}
-	
+
 	.author-website {
 		margin-left: 1.5%;
 	}
-	
+
 	.author-bio {
 		font-size: 0.9em;
 		margin: 1% auto;
@@ -448,7 +448,7 @@
 		padding: 2.5% 3.5%;
 		margin: 3.5% auto 1.5%;
 	}
-	
+
 	.author-meta {
 		float: none;
 		margin: 0 auto;
@@ -460,35 +460,35 @@
    ========================================================================== */
 
 .nav {
-	width: 100%;	
+	width: 100%;
 	font-size: 1.1em;
 	text-align: center;
 	clear: both;
 	list-style: none;
 	padding-left: 0;
 	margin: 1.5% auto 0;
-	
+
 	li {
 		display: inline;
 		margin: 0 0.25em;
 	}
-	
+
 	a {
 		color: $text-color;
-		
+
 		&:hover {
 			color: $accent-color;
 		}
-		
+
 		&:active,
 		&:focus {
 			color: $secondary-accent-color;
 		}
 	}
-	
+
 	.nav-current a {
 		color: $accent-color;
-		
+
 		&:hover {
 			animation: shake 0.25s ease 0.25s;
 		}
@@ -510,14 +510,14 @@
 .post-navigation {
 	width: 92.5%;
 	margin: 2.5% auto;
-	
+
 	a {
 		transition: padding 0.25s ease-out, color 0.25s ease-out;
 		display: block;
 		overflow: hidden;
 		padding: 0;
 		margin: 2.5% 0;
-		
+
 		&:hover {
 			padding: 0 2.5%;
 		}
@@ -575,7 +575,7 @@
 	.pagination a:hover {
 		color: $accent-color;
 	}
-	
+
 	.pagination a:active {
 		color: $secondary-accent-color;
 	}
@@ -669,7 +669,7 @@
 	&:hover {
 		background-color: $secondary-accent-color;
 	}
-	
+
 	&:active {
 		background-color: $secondary-text-color;
 	}
@@ -839,7 +839,7 @@
 }
 
 .blog-title {
-	font-size: 3.5em;
+	font-size: 3em;
 }
 }
 
