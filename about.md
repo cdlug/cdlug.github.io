@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-permalink: /about/
+permalink: /about
 ---
 
 ### Chengdu GNU/Linux User Group
@@ -21,7 +21,7 @@ to join mail list, send email to, with any subject
 
     cdlug_community+subscribe(AT)googlegroups.com
 
-### Google group page 
+### Google group page
 查看历史消息
 archived messages
 
