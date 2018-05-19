@@ -3,10 +3,12 @@ layout: post
 title: 荣耀堂 Hall of Fame
 ---
 ## cdlug logo 设计
-| 设计师| 时间    | 存档   |
+
+| 设计师 | 时间    | 存档   |
 | ------------- | ------------- | ----- |
 | Izak | 2016-07 | [raster.zip](/images/raster.zip) |
 | Izak | 2017-12 | [vectors.zip](/images/vectors.zip) |
+
 
 ## cdlug.sh 域名捐赠
 cdlug.sh
