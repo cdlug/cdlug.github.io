@@ -7,7 +7,7 @@ email: cdlug_community@googlegroups.com
 description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://cdlug.sh" # the base hostname & protocol for your site
+url: "http://cdlug.org" # the base hostname & protocol for your site
 twitter_username: cdlug
 github_username:  cdlug
 google_groupname:  cdlug_community
