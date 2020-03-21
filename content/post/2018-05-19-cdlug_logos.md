@@ -1,11 +1,14 @@
 ---
-layout: post
 title: cdlug logos
+date: "2018-05-19"
+slug: cdlug_logos
+url: /2018/05/19/cdlug_logos.html
 ---
 
 ## cdlug logos
 
-艺术家Izak 给我们画了logo 让我们几乎成为最萌的 lug。
+艺术家 Izak 给我们画了 logo 让我们几乎成为最萌的 lug。
+
 ### [第一版](/images/raster.zip)
 
 <div style="width:100%;text-align:center;">
@@ -17,6 +20,7 @@ title: cdlug logos
 </div>
 
 ### [第二矢量版](/images/vectors.zip)
+
 <div style="width:100%;text-align:center;">
 <img style="padding:0 5%; 0 5%;" src="/images/vectors/cdlug1_gray.svg" alt="cdlug1_gray.svg" width="65%"/>
 <img style="padding:0 5%; 0 5%;" src="/images/vectors/cdlug2_gray.svg" alt="cdlug2_gray.svg" width="65%"/>
