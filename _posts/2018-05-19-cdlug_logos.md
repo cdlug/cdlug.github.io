@@ -1,6 +1,7 @@
 ---
 layout: post
 title: cdlug logos
+tags: [logo,矢量vector,位图raster]
 ---
 
 ## cdlug logos

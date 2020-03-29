@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 荣耀堂 Hall of Fame
+tags: [荣耀堂Hall of Fame,财务finace]
 ---
 ## cdlug logo 设计
 

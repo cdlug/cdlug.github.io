@@ -2,6 +2,7 @@
 layout: post
 title: 开源镜像opensource mirrors
 author: haobug
+tags: [镜像mirror]
 ---
 
 ## 主要提供商主页地址providers' home page
