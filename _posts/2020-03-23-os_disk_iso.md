@@ -5,7 +5,7 @@ author: haobug
 tags: [镜像mirror,iso,操作系统OS]
 ---
 
-## ubuntu 
+## ubuntu
 [tsinghua](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/);
 [ustc](http://mirrors.ustc.edu.cn/ubuntu-releases/);
 [163](https://mirrors.163.com/ubuntu-releases/);
