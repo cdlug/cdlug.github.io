@@ -1,6 +1,8 @@
 ---
-title: 财务状况
+title: 财务
 slug: finance
+aliases:
+  - /donations
 ---
 
 感谢所有向 CDLUG 提供捐助的朋友！
