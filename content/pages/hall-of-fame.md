@@ -1,6 +1,8 @@
 ---
 title: 荣耀堂
 slug: hall-of-fame
+aliases:
+  - /2017/11/25/Hall_of_Fame.html
 ---
 
 ## cdlug logo 设计

@@ -2,7 +2,8 @@
 title: cdlug logos
 date: "2018-05-19"
 slug: cdlug_logos
-url: /2018/05/19/cdlug_logos.html
+aliases:
+  - /2018/05/19/cdlug_logos.html
 ---
 
 ## cdlug logos
