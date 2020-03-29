@@ -42,7 +42,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   identifier = "about"
   url = "/about"
 [[menu.main]]
-  name = "财务状况"
+  name = "财务"
   weight = 30
   identifier = "finance"
   url = "/finance"
@@ -114,8 +114,11 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     repo = ""               # The repo to store comments
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:your@email.com"
-    g-github = "http://localhost:1313"
+    # a-email = "https://groups.google.com/forum/#!forum/cdlug_community"
+    # c-twitter = "https://twitter.com/cdlug"
+    g-github = "https://github.com/cdlug"
+    # t-link = "https://t.me/CDLUG2020"
+
 
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
