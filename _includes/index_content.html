@@ -9,7 +9,7 @@
 	    <p>{{ post.summary }}<a class="excerpt-suffix" href="{{ post.url | prepend: site.baseurl }}">&hellip;</a></p>
 	</section>
 	<footer class="post-footer">
-	    <div class="post-tags">Tagged with:  <a href="">{{ post.categories | category_links}}</a>
+	    <div class="post-tags">Tagged with:  <a href="">{{ post.tags | tag_links}}</a>
 	    </div>
 	</footer>
     </article>

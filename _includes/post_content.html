@@ -11,7 +11,16 @@
 	</section>
 	<section class="post-footer">
 	    <div class="post-tags">
-	        Tagged with: {{ page.categories | category_links}}
+	        Tagged with: 
+{% comment %}
+=======================
+The purpose of this snippet is to list all the tags you have in your site.
+=======================
+{% endcomment %}
+{% for tag in page.tags %}
+	<a href="/tags#{{ tag | slugify }}"> {{ tag }} </a>
+{% endfor %}
+
 	    </div>
 	</section>
 	        {% include disqus.html %}
