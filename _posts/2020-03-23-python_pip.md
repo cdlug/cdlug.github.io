@@ -32,13 +32,15 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/ pip
 ### 写在配置文件里
 1. Linux/MacOS 用户将它命名为 `pip.conf`，Windows 用户将它命名为 `pip.ini` 。 文件中写如下内容：
    ```conf
-   [global]timeout = 60
+   [global]
+   timeout = 60
    index-url = https://pypi.doubanio.com/simple
    ```
 
    **注意：** 如果使用http链接，需要指定trusted-host参数
    ```conf
-   [global]timeout = 60
+   [global]
+   timeout = 60
    index-url = http://pypi.douban.com/simple
    trusted-host = pypi.douban.com
    ```
