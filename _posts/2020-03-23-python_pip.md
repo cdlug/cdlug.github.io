@@ -35,9 +35,9 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/ pip
 [global]timeout = 60
 index-url = https://pypi.doubanio.com/simple
 ```
-  **注意：** 如果使用http链接，需要指定trusted-host参数
 
-```conf
+  **注意：** 如果使用http链接，需要指定trusted-host参数
+  ```conf
 [global]timeout = 60
 index-url = http://pypi.douban.com/simple
 trusted-host = pypi.douban.com
