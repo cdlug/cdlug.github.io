@@ -2,7 +2,11 @@
 layout: post
 title: python pypi 镜像
 author: haobug
-tags: [镜像mirror,pip,pypi,python]
+tags: 
+- 镜像mirror
+- pip 
+- pypi
+- python
 ---
 
 <!--
