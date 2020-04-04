@@ -2,7 +2,10 @@
 layout: post
 title: 操作系统 ISO 镜像
 author: haobug
-tags: [镜像mirror,iso,操作系统OS]
+tags: 
+- 镜像mirror
+- iso
+- 操作系统OS
 ---
 
 ## ubuntu
