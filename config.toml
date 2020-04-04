@@ -10,7 +10,7 @@ hasCJKLanguage = true                         # en / zh-cn / ... (This field det
 enableRobotsTXT = true
 enableEmoji = true
 
-enableGitInfo = false # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
+enableGitInfo = true # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
 
 pygmentsCodefences = true
 pygmentsUseClasses = true
