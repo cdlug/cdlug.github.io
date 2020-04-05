@@ -2,6 +2,8 @@
 layout: post
 title: python pypi 镜像
 author: haobug
+date: "2020-03-23"
+slug: python_pip
 ---
 
 <!--

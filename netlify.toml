@@ -1,0 +1,5 @@
+[context.production]
+command = "hugo -D"
+
+[context.hugo]
+command = "hugo -D"
