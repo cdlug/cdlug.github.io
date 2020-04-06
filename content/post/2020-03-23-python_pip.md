@@ -1,9 +1,14 @@
 ---
 layout: post
 title: python pypi 镜像
-author: haobug
+author: haobug,toolib
 date: "2020-03-23"
 slug: python_pip
+tags:
+- python
+- pip
+- pypi
+- 镜像mirror
 ---
 
 <!--
