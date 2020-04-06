@@ -1,6 +1,6 @@
-baseURL = "https://affectionate-tesla-fb7bad.netlify.com"
+baseURL = "https://cdlug.org"
 
-title = "cdlug"
+title = "Chengdu GNU/Linux UserGroup"
 theme = "even"
 
 languageCode = "zh-cn"
