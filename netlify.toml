@@ -1,5 +1,11 @@
 [context.production]
 command = "hugo -D"
 
+[context.production.environment]
+  HUGO_VERSION = "0.69"
+
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.69"
+
 [context.hugo]
 command = "hugo -D"
