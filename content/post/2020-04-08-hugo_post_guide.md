@@ -28,7 +28,7 @@ isCJKLanguage: true
 6. Review 之后，merge 到 master，[Netlify][4] 会检测到新的版本，自动更新 [cdlug.org][5]
 
 ## Hugo 的基本使用
-这里只列出基本的几个操作，更多使用详见[Hugo中文文档][6]
+这里只列出基本的几个操作，更多使用详见[Hugo中文文档][3]
 1. Clone 仓库，注意有 submodule	
    ```bash
    $ git clone --recursive <project url>
@@ -46,23 +46,37 @@ isCJKLanguage: true
 
 ## 文章的格式和建议
 ### Front Matter 数据设置
-建议参考 [even 主题的文档][7] 和 [Hugo 文档 Front Matter][8]。
+建议参考 [even 主题的文档][6] 和 [Hugo 文档 Front Matter][7]。
 
 在仓库内 `archetypes` 目录里有两个文件会在 `hugo new` 的时候使用到，其中
 - `archetypes/default.md` 是默认会使用的文件
 - `archetypes/even_default_mod.md` 是根据 even 主题提供的默认模版的修改，可以作参考用
 
+## GitHub 协作
+- Clone 仓库
+   ```bash
+   $ git clone --recursive <project url>
+   ```
+- Review PR
+  ```bash
+   $ git remote add cdlug https://github.com/cdlug/cdlug.github.io/
+   $ git remote update cdlug
+   $ git fetch cdlug pull/38/head:localTest
+   $ git checkout localTest
+   ```
+
 ## 参考资料
-- [even 主题的文档][9]
-- [Hugo中文文档][10]
+- [even 主题的文档][6]
+- [Hugo中文文档][3]
+- [Check out pull requests locally][8]
+- [Host on Netlify | Hugo](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/)
+- [搭建博客 ( freenom + github + netlify + hugo ( extended version ) ) - 个人文章 - SegmentFault 思否](https://segmentfault.com/a/1190000020197430)
 
 [1]:	https://github.com/QuantumGhost
 [2]:	https://github.com/haobug
 [3]:	https://www.gohugo.org/
 [4]:	https://www.netlify.com/
 [5]:	https://cdlug.org
-[6]:	https://www.gohugo.org/
-[7]:	https://github.com/olOwOlo/hugo-theme-even/blob/master/README-zh.md
-[8]:	https://www.gohugo.org/doc/content/front-matter/
-[9]:	https://github.com/olOwOlo/hugo-theme-even/blob/master/README-zh.md
-[10]:	https://www.gohugo.org/
+[6]:	https://github.com/olOwOlo/hugo-theme-even/blob/master/README-zh.md
+[7]:	https://www.gohugo.org/doc/content/front-matter/
+[8]:	https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/checking-out-pull-requests-locally
