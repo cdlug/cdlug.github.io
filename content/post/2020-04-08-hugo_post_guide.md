@@ -1,7 +1,6 @@
 ---
 title: "使用 Hugo 和更新 CDLUG 说明"
 date: 2020-04-08T17:54:49+08:00
-lastmod: 2020-04-08T17:54:49+08:00
 slug: hugo-post-guide
 description: "主要介绍 Hugo 的一些基本使用，还有如何协作更新、发表文章"
 author: "Too"
@@ -16,7 +15,9 @@ isCJKLanguage: true
 ---
 
 在 [@QuantumGhost][1] 和 [@haobug][2] 的大力推动下，换用了 [Hugo][3] 作为 CDLUG 站点的生成系统，各项内容逐步完善中。这里主要介绍 Hugo 的一些基本使用，还有如何协作更新、发表文章。
+
 <!--more-->
+
 
 ## 增加新文章流程
 这里列出大概流程，具体操作见后面说明
@@ -26,6 +27,7 @@ isCJKLanguage: true
 4. 提交修改，push 到 GitHub 你的仓库
 5. 发起到 CDLUG 仓库的 pull request
 6. Review 之后，merge 到 master，[Netlify][4] 会检测到新的版本，自动更新 [cdlug.org][5]
+
 
 ## Hugo 的基本使用
 这里只列出基本的几个操作，更多使用详见[Hugo中文文档][3]
@@ -41,7 +43,20 @@ isCJKLanguage: true
    ```bash
    $ hugo server -t even -D 
    ```
-   需要注意，确保有 even 主题存在，否则运行看到的预览将是空白
+   {{% warning %}}
+   需要注意，确保有 even 主题存在，否则运行看到的预览将是空白。如果 Clone 的时候忘记使用 recursive 参数，可以执行如下操作
+   ```bash
+   git submodule init
+   git submodule update
+   ```
+   {{% /warning %}}
+
+
+{{% admonition type="tip" title="even 主题的坑" details="true" %}}
+- 新版的 Hugo 需要设置 `[markup.goldmark.renderer]` 才能使用 admonition
+- admonition 块如果顶格（即有缩进的话）会导致 div 没正常关闭
+- Flowchart 那些我测试似乎是不生效的
+{{% /admonition %}}
 
 
 ## 文章的格式和建议
