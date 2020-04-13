@@ -41,7 +41,7 @@ isCJKLanguage: true
    ```
 3. 运行预览（使用 even 主题）
    ```bash
-   $ hugo server -t even -D 
+   $ hugo server -D 
    ```
    {{% warning %}}
    需要注意，确保有 even 主题存在，否则运行看到的预览将是空白。如果 Clone 的时候忘记使用 recursive 参数，可以执行如下操作
@@ -50,13 +50,13 @@ isCJKLanguage: true
    git submodule update
    ```
    {{% /warning %}}
-
-
-{{% admonition type="tip" title="even 主题的坑" details="true" %}}
-- 新版的 Hugo 需要设置 `[markup.goldmark.renderer]` 才能使用 admonition
-- admonition 块如果顶格（即有缩进的话）会导致 div 没正常关闭
-- Flowchart 那些我测试似乎是不生效的
-{{% /admonition %}}
+   
+   ### 关于 even 主题的一些坑
+   {{% note %}}
+   - 新版的 Hugo 需要设置 `[markup.goldmark.renderer]` 才能使用 admonition
+   - admonition 块如果顶格（即有缩进的话）会导致 div 没正常关闭
+   - Flowchart 那些我测试似乎是不生效的
+   {{% /note %}}
 
 
 ## 文章的格式和建议
