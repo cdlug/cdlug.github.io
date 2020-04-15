@@ -117,7 +117,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     # a-email = "https://groups.google.com/forum/#!forum/cdlug_community"
     # c-twitter = "https://twitter.com/cdlug"
     g-github = "https://github.com/cdlug"
-    # t-link = "https://t.me/CDLUG2020"
+    l-tumblr = "https://t.me/CDLUG"
 
 
 # See https://gohugo.io/about/hugo-and-gdpr/
@@ -144,3 +144,6 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 #  section = ["HTML", "RSS"]
 #  taxonomy = ["HTML", "RSS"]
 #  taxonomyTerm = ["HTML"]
+
+# [markup.goldmark.renderer]
+#   unsafe= true
