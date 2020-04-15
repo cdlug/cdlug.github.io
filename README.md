@@ -13,17 +13,17 @@
 - Telegram 群聊  [点击加入](https://t.me/CDLUG)
 - 邮件列表
 
-    cdlug_community(AT)googlegroups.com
+        cdlug_community(AT)googlegroups.com
     
-加入邮件列表（开放），发邮件到下面地址，邮件标题随意
+    加入邮件列表（开放），发邮件到下面地址，邮件标题随意
 
-    cdlug_community+subscribe(AT)googlegroups.com
+        cdlug_community+subscribe(AT)googlegroups.com
 
 ## 本站点是如何搭建的
 
 - 使用静态站点生成器 [Hugo]()
 - 部署使用 [Netlify](https://netlify.com) 自动根据 master 分支的提交部署到 CDN
-- 如何使用 Hugo 发布 Post，参看文章[使用 Hugo 和更新 CDLUG 说明 - Chengdu GNU/Linux UserGroup](https://cdlug.org/2020/04/08/hugo-post-guide/)
+- 如何使用 Hugo 发布 Post，参看文章[使用 Hugo 和更新 CDLUG 说明](https://cdlug.org/2020/04/08/hugo-post-guide/)
 
 ## 特别鸣谢
 
