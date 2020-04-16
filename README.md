@@ -21,7 +21,7 @@
 
 ## 本站点是如何搭建的
 
-- 使用静态站点生成器 [Hugo]()
+- 使用静态站点生成器 [Hugo](https://gohugo.io/)
 - 部署使用 [Netlify](https://netlify.com) 自动根据 master 分支的提交部署到 CDN
 - 如何使用 Hugo 发布 Post，参看文章[使用 Hugo 和更新 CDLUG 说明](https://cdlug.org/2020/04/08/hugo-post-guide/)
 
@@ -29,4 +29,4 @@
 
 - 历年来支持和维护 CDLUG 组织到小伙伴，[荣耀堂](https://cdlug.org/hall-of-fame)有列出部分信息
 - TG 上 @CharlesYang 提供的 TG 链接名字
-- 本仓库的贡献者们
+- 本仓库的[贡献者们](https://github.com/cdlug/cdlug.github.io/graphs/contributors)
