@@ -27,6 +27,6 @@
 
 ## 特别鸣谢
 
-- 历年来支持和维护 CDLUG 组织到小伙伴，[荣耀堂](https://cdlug.org/hall-of-fame)有列出部分信息
+- 历年来支持和维护 CDLUG 组织的小伙伴，[荣耀堂](https://cdlug.org/hall-of-fame)有列出部分信息
 - TG 上 @CharlesYang 提供的 TG 链接名字
 - 本仓库的[贡献者们](https://github.com/cdlug/cdlug.github.io/graphs/contributors)
