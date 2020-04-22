@@ -2,6 +2,10 @@
 title: cdlug logos
 date: "2018-05-19"
 slug: cdlug_logos
+tags:
+- logo
+- 矢量vector
+- 位图raster
 ---
 
 ## cdlug logos

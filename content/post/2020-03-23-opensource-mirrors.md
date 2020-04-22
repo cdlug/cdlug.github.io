@@ -4,6 +4,7 @@ title: 开源镜像opensource mirrors
 author: haobug
 date: "2020-03-23"
 slug: opensource-mirrors
+tags: [镜像mirror]
 ---
 
 ## 主要提供商主页地址providers' home page

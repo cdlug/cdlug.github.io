@@ -4,6 +4,10 @@ title: 操作系统 ISO 镜像
 author: haobug
 date: "2020-03-23"
 slug: os_disk_iso
+tags:
+- 镜像mirror
+- iso
+- 操作系统OS
 ---
 
 ## ubuntu
