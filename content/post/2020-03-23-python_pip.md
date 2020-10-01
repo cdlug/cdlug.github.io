@@ -22,6 +22,7 @@ https://pypi.tuna.tsinghua.edu.cn/simple/
 ```
 https://pypi.douban.com/simple/
 ```
+<!--more-->
 
 ### 使用方法Usage
 ```bash

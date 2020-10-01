@@ -11,6 +11,7 @@ slug: opensource-mirrors
 * 清华大学 https://mirrors.tuna.tsinghua.edu.cn/
 * 网易 https://mirrors.163.com/
 * 搜狐 http://mirrors.sohu.com/
+<!--more-->
 
 ## 分类Category
 * [下载操作系统ISO](os_disk_iso)

@@ -22,6 +22,8 @@ wget -c "https://mirrors.sohu.com/ubuntu-releases/14.04/release/ubuntu-14.04.5-d
 wget -N https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/14.04/ubuntu-14.04.6-desktop-amd64.iso.torrent
 aria2c -s9 -x9 ubuntu-14.04.6-desktop-amd64.iso.torrent
 ```
+<!--more-->
+
 #### zsync
 ```
 #TODO
