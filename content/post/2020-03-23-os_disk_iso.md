@@ -6,12 +6,6 @@ date: "2020-03-23"
 slug: os_disk_iso
 ---
 
-## ubuntu
-[tsinghua](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/);
-[ustc](http://mirrors.ustc.edu.cn/ubuntu-releases/);
-[163](https://mirrors.163.com/ubuntu-releases/);
-[sohu](https://mirrors.sohu.com/ubuntu-releases/);
-
 ### 使用方法Usage
 #### wget
 ```bash
