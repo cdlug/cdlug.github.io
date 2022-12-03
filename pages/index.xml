@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Chengdu GNU/Linux UserGroup</title>
+    <link>https://cdlug.org/pages/</link>
+    <description>Recent content in Pages on Chengdu GNU/Linux UserGroup</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language><atom:link href="https://cdlug.org/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>财务</title>
+      <link>https://cdlug.org/finance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cdlug.org/finance/</guid>
+      <description>感谢所有向 CDLUG 提供捐助的朋友！ 收支记录 结余金额暂由 haobug 代持（2019-01-17）。 结余金额暂由李名扬代持（2018-02-25）。 2020 年度 时间 收</description>
+    </item>
+    
+    <item>
+      <title>关于About</title>
+      <link>https://cdlug.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cdlug.org/about/</guid>
+      <description>Chengdu GNU/Linux User Group 我们是成都本地的 GNU/Linux 用户结成的小组，我们有线上讨论和线下活动，讨论的内容主要是 linux 以及技术相关的主题。活动时间并不固定，具体请关注邮件列</description>
+    </item>
+    
+    <item>
+      <title>荣耀堂</title>
+      <link>https://cdlug.org/hall-of-fame/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cdlug.org/hall-of-fame/</guid>
+      <description>cdlug logo 设计 设计师 时间 存档 Izak 2016-07 raster.zip Izak 2017-12 vectors.zip cdlug.sh 域名捐赠 cdlug.sh 捐赠者 数目 时间 被遗忘的S 500 RMB 2020-04-21 Shawn 100 RMB 2016-01-10 李名扬 285 RMB 2016-01-10 李名扬 59 USD 2017-01-10 Shawn 100 RMB 2017-11-22 文百川 80 RMB 2017-11-22 姚有趣 200 RMB 2017-11-24</description>
+    </item>
+    
+  </channel>
+</rss>
