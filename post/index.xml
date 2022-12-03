@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Chengdu GNU/Linux UserGroup</title>
+    <link>https://cdlug.org/post/</link>
+    <description>Recent content in Posts on Chengdu GNU/Linux UserGroup</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 08 Apr 2020 17:54:49 +0800</lastBuildDate><atom:link href="https://cdlug.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 Hugo 和更新 CDLUG 说明</title>
+      <link>https://cdlug.org/2020/04/08/hugo-post-guide/</link>
+      <pubDate>Wed, 08 Apr 2020 17:54:49 +0800</pubDate>
+      
+      <guid>https://cdlug.org/2020/04/08/hugo-post-guide/</guid>
+      <description>&lt;p&gt;在 &lt;a href=&#34;https://github.com/QuantumGhost&#34;&gt;@QuantumGhost&lt;/a&gt; 和 &lt;a href=&#34;https://github.com/haobug&#34;&gt;@haobug&lt;/a&gt; 的大力推动下，换用了 &lt;a href=&#34;https://www.gohugo.org/&#34;&gt;Hugo&lt;/a&gt; 作为 CDLUG 站点的生成系统，各项内容逐步完善中。这里主要介绍 Hugo 的一些基本使用，还有如何协作更新、发表文章。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>apt镜像 apt mirror</title>
+      <link>https://cdlug.org/2020/03/23/pms.apt/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://cdlug.org/2020/03/23/pms.apt/</guid>
+      <description>apt镜像apt mirror 使用方法Usage sudo cp -v /etc/apt/sources.list /etc/apt/sources.list.bak sudo sed -i -e &amp;#39;s/http:\/\/us.archive/mirror:\/\/mirrors/&amp;#39; -e &amp;#39;s/\/ubuntu\//\/mirrors.txt/&amp;#39; /etc/apt/sources.list sudo apt-get update 使用方法Usage 2 sudo vim /etc/apt/sources.list https://mirrors.ustc.edu.cn/ubuntu/ https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ https://ftp.sjtu.edu.cn/ubuntu https://mirrors.sohu.com/ubuntu/ export MIRROR_HOST=mirrors.ustc.edu.cn sudo sed -i -e &amp;#34;s@\(http[s]*:\/\/\)[^/]*/@\1$MIRROR_HOST/@g&amp;#34; /etc/apt/sources.list; grep ubuntu /etc/apt/sources.list sudo apt-get update 参考ref</description>
+    </item>
+    
+    <item>
+      <title>python pypi 镜像</title>
+      <link>https://cdlug.org/2020/03/23/python_pip/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://cdlug.org/2020/03/23/python_pip/</guid>
+      <description>中国科学技术大学 https://pypi.mirrors.ustc.edu.cn/simple/ 清华大学 https://pypi.tuna.tsinghua.edu.cn/simple/ 豆瓣(douban) https://pypi.douban.com/simple/ 使用方法Usage pip install -i https://pypi.tuna.tsinghua.edu.cn/ pip https://mirrors.tuna.tsinghua.edu.cn/help/pypi/ https://mirrors.163.com/.help/pypi.html 写在配置文件里 Linux/MacOS 用户将它命名为 pip.conf，Windo</description>
+    </item>
+    
+    <item>
+      <title>操作系统 ISO 镜像</title>
+      <link>https://cdlug.org/2020/03/23/os_disk_iso/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://cdlug.org/2020/03/23/os_disk_iso/</guid>
+      <description>ubuntu tsinghua; ustc; 163; sohu; 使用方法Usage wget wget -c &amp;#34;https://mirrors.sohu.com/ubuntu-releases/14.04/release/ubuntu-14.04.5-desktop-amd64%2Bmac.iso&amp;#34; torrent wget -N https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/14.04/ubuntu-14.04.6-desktop-amd64.iso.torrent aria2c -s9 -x9 ubuntu-14.04.6-desktop-amd64.iso.torrent zsync #TODO</description>
+    </item>
+    
+    <item>
+      <title>开源镜像opensource mirrors</title>
+      <link>https://cdlug.org/2020/03/23/opensource-mirrors/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://cdlug.org/2020/03/23/opensource-mirrors/</guid>
+      <description>主要提供商主页地址providers&amp;rsquo; home page 中国科学技术大学 http://mirrors.ustc.edu.cn/ 清华大学 https://mirrors.tuna.tsinghua.edu.cn/ 网易 https://mirrors.163.com/ 搜狐 http://mirrors.sohu.com/ 分类Category 下载操作系统ISO pip openwrt</description>
+    </item>
+    
+    <item>
+      <title>cdlug logos</title>
+      <link>https://cdlug.org/2018/05/19/cdlug_logos/</link>
+      <pubDate>Sat, 19 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cdlug.org/2018/05/19/cdlug_logos/</guid>
+      <description>cdlug logos 艺术家 Izak 给我们画了 logo 让我们几乎成为最萌的 lug。 第一版 第二矢量版</description>
+    </item>
+    
+    <item>
+      <title>Hello3</title>
+      <link>https://cdlug.org/2016/05/25/hello3/</link>
+      <pubDate>Wed, 25 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cdlug.org/2016/05/25/hello3/</guid>
+      <description>cdlug.github.io new blog site of Chengdu GNU/Linux User Group Hello cdlug web wave 3 http://cdlug.org powered by Jekyll, theme copied from hardenedlinux.org 提交文章方法 A 使用 github 的在线编辑器。 打开 _posts 文件夹 点击**[Create new file]**新建一个文章</description>
+    </item>
+    
+  </channel>
+</rss>

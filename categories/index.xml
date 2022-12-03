@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Chengdu GNU/Linux UserGroup</title>
+    <link>https://cdlug.org/categories/</link>
+    <description>Recent content in Categories on Chengdu GNU/Linux UserGroup</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language><atom:link href="https://cdlug.org/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
