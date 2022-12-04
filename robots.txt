@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: https://cdlug.org/sitemap.xml
