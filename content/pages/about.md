@@ -37,12 +37,3 @@ might be #cdlug-cn on freenode, but no one operate it.
 
 需要成员邀请
 need invitation
-
-#### qr-code
-
-加群二维码
-invite qr-code for wechat group
-```bash
-    wget -N -O wechat.invite.qr.base64.html cdlug.org/wechat.invite.qr.base64.html
-    qrencode -s $(expr 2020 / 4 / 4) -o wechat_invite_qr.png $(base64 -d wechat.invite.qr.base64.html)
-```
